@@ -14,14 +14,29 @@ body {
 
     #Main {
         width: 100%;
-        padding: 0 var(--page-padding);
-        min-height: 100px;
+        
+        #main-contents {
+            padding: 50px var(--page-padding);
+            min-height: 100px;
+            background-color: var(--darker);
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        #main-nav {
+            padding: 0 var(--page-padding);
+            min-height: 100px;
+            background-color: var(--primary);
+            color: white;
+        }
     }
 
     /* Footer */
 
     #Footer {
         width: 100%;
+        color: white;
 
         #footer-nav {
             background-image: url(../../public/img/footer-bg.jpg);

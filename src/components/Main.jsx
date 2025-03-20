@@ -1,7 +1,8 @@
 export default function Main() {
     return (
         <main id="Main">
-            -- Content goes here --
+            <section id="main-contents">-- Content goes here --</section>
+            <section id="main-nav"></section>
         </main>
     )
 }
