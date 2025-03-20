@@ -31,6 +31,7 @@ body {
                 li:hover {
                     color: var(--primary);
                     border-bottom: solid 5px var(--primary);
+                    padding-top: 5px;
                 }
             }
         }
@@ -55,6 +56,30 @@ body {
             min-height: 100px;
             background-color: var(--primary);
             color: white;
+            display: flex;
+            align-items: center;
+            
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                height: 100%;
+                width: 100%;
+
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 0.5rem;
+                    font-size: 0.7rem;
+
+                    img {
+                        height: 40px;
+                    }
+                }
+            }
+
         }
     }
 

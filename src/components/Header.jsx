@@ -4,7 +4,7 @@ export default function Header() {
             <div id="header-logo">
                 <img src="img/dc-logo.png" alt="DC logo" />
             </div>
-            <div id="header-nav">
+            <nav id="header-nav">
                 <ul className="row gap-1 justify-content-center">
                     <li>CHARACTERS</li>           
                     <li>COMICS</li>
@@ -17,7 +17,7 @@ export default function Header() {
                     <li>NEWS</li>
                     <li>SHOP</li>
                 </ul>
-            </div>
+            </nav>
         </header>
     )
 }
