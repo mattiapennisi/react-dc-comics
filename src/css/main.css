@@ -6,8 +6,18 @@ body {
 
     #Header {
         width: 100%;
-        padding: 0 var(--page-padding);
+        padding: 15px var(--page-padding);
         min-height: 100px;
+
+        #header-logo {
+            width: 70px;
+        }
+
+        #header-nav {
+            color: var(--darker);
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
     }
 
     /* Main */
