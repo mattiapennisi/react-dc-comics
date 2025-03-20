@@ -32,6 +32,7 @@ body {
                     color: var(--primary);
                     border-bottom: solid 5px var(--primary);
                     padding-top: 5px;
+                    cursor: pointer;
                 }
             }
         }
@@ -95,12 +96,38 @@ body {
             padding: 0 var(--page-padding);
             display: flex;
             justify-content: space-between;
+            align-items: center;
 
 
             #footer-nav-links {
                 min-height: 200px;
                 color: white;
+                display: flex;
+                gap: 2rem;
 
+                .footer-nav-links-element {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+
+                    h3 {
+                        font-weight: 700;
+                        font-size: 1.1rem;
+                        margin-bottom: 0.7rem;
+                    }
+
+                    h3:nth-of-type(2) {
+                        margin-top: 1rem;
+                    }
+
+                    ul {
+                        color: grey;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0.2rem;
+                        font-size: 0.9rem;
+                    }
+                }
             }
 
             #footer-nav-logo {
@@ -133,6 +160,7 @@ body {
 
                 &:hover {
                     background-color: var(--primary);
+                    cursor: pointer;
                 }
             }
 
