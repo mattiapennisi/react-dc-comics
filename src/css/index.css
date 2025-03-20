@@ -1,0 +1,12 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #0282f9;
+  --darker: #1c1c1c;
+  --lighter: #303030;
+  --page-padding: 200px;
+}
