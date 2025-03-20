@@ -118,6 +118,35 @@ body {
             padding: 0 var(--page-padding);
             position: relative;
             z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            #log-button {
+                display: flex;  
+                align-items: center;
+                font-weight: 700;
+                color: white;
+                border: solid 3px var(--primary);
+                height: 50px;
+                padding: 0 1rem;
+
+                &:hover {
+                    background-color: var(--primary);
+                }
+            }
+
+            #social-links {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 1rem;
+
+                .social-links-element {
+                    color: var(--primary);
+                    font-weight: 700;
+                }
+            }
         }
     }
 }
