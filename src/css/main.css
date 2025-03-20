@@ -7,16 +7,32 @@ body {
     #Header {
         width: 100%;
         padding: 15px var(--page-padding);
-        min-height: 100px;
+        height: var(--header-height);
 
         #header-logo {
-            width: 70px;
+            width: 60px;
         }
 
         #header-nav {
             color: var(--darker);
             font-size: 0.7rem;
             font-weight: 500;
+            height: var(--header-height);
+
+            ul {
+                height: var(--header-height);
+
+                li {
+                    height: var(--header-height);
+                    display: flex;
+                    align-items: center;
+                }
+
+                li:hover {
+                    color: var(--primary);
+                    border-bottom: solid 5px var(--primary);
+                }
+            }
         }
     }
 

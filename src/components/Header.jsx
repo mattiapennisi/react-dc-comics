@@ -5,7 +5,7 @@ export default function Header() {
                 <img src="img/dc-logo.png" alt="DC logo" />
             </div>
             <div id="header-nav">
-                <ul className="row gap-1 align-items-end justify-content-center">
+                <ul className="row gap-1 justify-content-center">
                     <li>CHARACTERS</li>           
                     <li>COMICS</li>
                     <li>MOVIES</li>
