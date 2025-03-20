@@ -53,7 +53,7 @@ body {
 
         #main-nav {
             padding: 0 var(--page-padding);
-            min-height: 100px;
+            height: 120px;
             background-color: var(--primary);
             color: white;
             display: flex;
@@ -62,7 +62,7 @@ body {
             ul {
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between;
+                justify-content: space-around;
                 align-items: center;
                 height: 100%;
                 width: 100%;
@@ -93,12 +93,31 @@ body {
             background-image: url(../../public/img/footer-bg.jpg);
             min-height: 300px;
             padding: 0 var(--page-padding);
+            display: flex;
+            justify-content: space-between;
+
+
+            #footer-nav-links {
+                min-height: 200px;
+                color: white;
+
+            }
+
+            #footer-nav-logo {
+
+                img {
+                    margin: -50px 0;
+                    height: 450px;
+                }
+            }
         }
 
         #footer-log {
             background-color: var(--lighter);
             min-height: 100px;
             padding: 0 var(--page-padding);
+            position: relative;
+            z-index: 10;
         }
     }
 }
