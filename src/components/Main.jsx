@@ -5,10 +5,12 @@ export default function Main() {
     return (
         <main id="Main">
             <section id="main-jumbotron">
-
+                
             </section>
             <section id="main-contents">
-                <h1>--&gt; Content goes here &lt;--</h1>
+                <h2 id='main-contents-tag'>CURRENT SERIES</h2>
+
+                <CardsList />
             </section>
             
             <Features />
