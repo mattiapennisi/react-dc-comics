@@ -11,6 +11,10 @@ body {
 
         #header-logo {
             width: 60px;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
 
         #header-nav {
@@ -93,6 +97,11 @@ body {
                         font-weight: 300;
                         font-size: 0.9rem;
 
+                        &:hover {
+                            transform: scale(1.05);
+                            cursor: pointer;
+                        }
+
                         &:first-child img,
                         &:last-child img {
                             transform: scale(1.6);
@@ -126,6 +135,11 @@ body {
                     background-color: var(--primary);
                     padding: 0.7rem 3rem;
                     font-size: 1rem;
+
+                    &:hover {
+                        cursor: pointer;
+                        filter: brightness(120%)
+                    }
                 }
             }
         }
@@ -203,6 +217,12 @@ body {
                         flex-direction: column;
                         gap: 0.3rem;
                         font-size: 0.9rem;
+
+                        li:hover {
+                            cursor: pointer;
+                            color: white;
+                            text-decoration: underline;
+                        }
                     }
                 }
             }
@@ -250,6 +270,11 @@ body {
                 .social-links-element {
                     color: var(--primary);
                     font-weight: 700;
+
+                    &:hover {
+                        filter: brightness(130%);
+                        cursor: pointer;
+                    }
                 }
             }
         }
