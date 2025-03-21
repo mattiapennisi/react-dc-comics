@@ -4,7 +4,7 @@ import CardsList from './CardsList'
 export default function Main() {
     return (
         <main id="Main">
-            <section id="jumbotron">
+            <section id="main-jumbotron">
 
             </section>
             <section id="main-contents">
