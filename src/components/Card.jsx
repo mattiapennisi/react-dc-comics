@@ -1,5 +1,5 @@
 export default function Card() {
     return (
-        <p>Card</p>
+        <div className="col">Card</div>
     )
 }
