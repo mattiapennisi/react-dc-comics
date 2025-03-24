@@ -1,13 +1,12 @@
 import Card from './Card.jsx'
-import comics from '../data/comics.js'
 
-export default function CardsList() {
+export default function CardsList({ cards }) {
     return (
         <div id="cardsList">
             <div id='Cards'>
                 {
-                    comics.map((comic) => {
-                        return <Card title={comic.series} image={comic.thumb}/>
+                    cards.map((comic) => {
+                        return <Card title={comic.series.toUpperCase()} image={comic.thumb}/>
                     })
                 }
             </div>

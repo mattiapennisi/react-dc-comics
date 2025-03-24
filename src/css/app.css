@@ -19,7 +19,7 @@ body {
 
         #header-nav {
             color: var(--darker);
-            font-size: 0.7rem;
+            font-size: 1rem;
             font-weight: 500;
             height: var(--header-height);
 

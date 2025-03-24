@@ -1,17 +1,4 @@
-const HeaderLinks = [
-  'CHARACTERS',
-  'COMICS',
-  'MOVIES',
-  'TV',
-  'GAMES',
-  'COLLECTIBLES',
-  'VIDEOS',
-  'FANS',
-  'NEWS',
-  'SHOP'
-]
-
-export default function Header() {
+export default function Header({ links }) {
     return (
         <header id="Header" className="d-flex justify-content-between align-items-center">
             <div id="header-logo">
@@ -19,7 +6,7 @@ export default function Header() {
             </div>
             <nav id="header-nav">
                 <ul className="row gap-1 justify-content-center">
-                    {HeaderLinks.map((link, index) => (
+                    {links.map((link, index) => (
                         <li key={index}>{link}</li>
                     ))}
                 </ul>
