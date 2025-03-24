@@ -82,7 +82,7 @@ body {
                     padding: 1rem;
                     display: flex;
                     flex-direction: row;
-                    justify-content: space-between;
+                    justify-content: start;
                     flex-wrap: wrap;
                     margin-bottom: 2rem;
                     width: 100%;
@@ -167,7 +167,7 @@ body {
                     flex-direction: row;
                     align-items: center;
                     gap: 0.5rem;
-                    font-size: 0.7rem;
+                    font-size: 1rem;
 
                     img {
                         height: 40px;
