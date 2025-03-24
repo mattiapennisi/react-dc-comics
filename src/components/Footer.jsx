@@ -1,4 +1,4 @@
-export default function Footer() {
+export default function Footer({ dcComicsLinks, shopLinks, dcLinks, sitesLinks }) {
     return (
         <footer id="Footer">
 
@@ -9,20 +9,17 @@ export default function Footer() {
                             DC COMICS
                         </h3>
                         <ul>
-                            <li>Characters</li>
-                            <li>Comics</li>
-                            <li>Movies</li>
-                            <li>TV</li>
-                            <li>Games</li>
-                            <li>Videos</li>
-                            <li>News</li>
+                            {dcComicsLinks.map((link, index) => {
+                                return <li key={index}>{link}</li>
+                            })}
                         </ul>
                         <h3>
                             SHOP
                         </h3>
                         <ul>
-                            <li>Shop DC</li>
-                            <li>Shop DC Collectibles</li>
+                        {shopLinks.map((link, index) => {
+                                return <li key={index}>{link}</li>
+                            })}
                         </ul>
                     </div>
                     <div className="footer-nav-links-element">
@@ -30,17 +27,9 @@ export default function Footer() {
                             DC
                         </h3>
                         <ul>
-                            <li>Terms Of Use</li>
-                            <li>Privacy policy (New)</li>
-                            <li>Ad Choices</li>
-                            <li>Advertising</li>
-                            <li>Jobs</li>
-                            <li>Subscriptions</li>
-                            <li>Talent Workshops</li>
-                            <li>CPSC Certificates</li>  
-                            <li>Ratings</li>
-                            <li>Shop Help</li>
-                            <li>Contact Us</li>
+                        {dcLinks.map((link, index) => {
+                                return <li key={index}>{link}</li>
+                            })}
                         </ul>
                     </div>
                     <div className="footer-nav-links-element">
@@ -48,11 +37,9 @@ export default function Footer() {
                             SITES
                         </h3>
                         <ul>
-                            <li>DC</li>
-                            <li>MAD Magazine</li>
-                            <li>DC Kids</li>
-                            <li>DC Universe</li>
-                            <li>DC Power Visa</li>
+                        {sitesLinks.map((link, index) => {
+                                return <li key={index}>{link}</li>
+                            })}
                         </ul>
                     </div>
                 </div>
