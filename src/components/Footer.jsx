@@ -57,7 +57,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div id="footer-nav-logo">
-                    <img src="../../public/img/dc-logo-bg.png" alt="DC logo in background" />
+                    <img src="/img/dc-logo-bg.png" alt="DC logo in background" />
                 </div>
             </section>
 
@@ -68,19 +68,19 @@ export default function Footer() {
                         FOLLOW-US
                         </div>
                     <div className="social-links-element">
-                        <img src="../../public/img/footer-facebook.png" alt="Facebook logo" />
+                        <img src="/img/footer-facebook.png" alt="Facebook logo" />
                     </div>
                     <div className="social-links-element">
-                        <img src="../../public/img/footer-twitter.png" alt="Twitter logo" />
+                        <img src="/img/footer-twitter.png" alt="Twitter logo" />
                     </div>
                     <div className="social-links-element">
-                        <img src="../../public/img/footer-youtube.png" alt="Youtube logo" />
+                        <img src="/img/footer-youtube.png" alt="Youtube logo" />
                     </div>
                     <div className="social-links-element">
-                        <img src="../../public/img/footer-pinterest.png" alt="Pinterest logo" />
+                        <img src="/img/footer-pinterest.png" alt="Pinterest logo" />
                     </div>
                     <div className="social-links-element">
-                        <img src="../../public/img/footer-periscope.png" alt="Periscope logo" />
+                        <img src="/img/footer-periscope.png" alt="Periscope logo" />
                     </div>
                 </div>
             </section>

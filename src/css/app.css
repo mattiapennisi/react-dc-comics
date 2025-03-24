@@ -48,7 +48,9 @@ body {
         width: 100%;
 
         #main-jumbotron {
-            background-image: url(../../public/img/jumbotron.jpg);
+            background-image: url(/img/jumbotron.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
             height: 400px;
         }
 
@@ -183,7 +185,7 @@ body {
         color: white;
 
         #footer-nav {
-            background-image: url(../../public/img/footer-bg.jpg);
+            background-image: url(/img/footer-bg.jpg);
             min-height: 300px;
             padding: 0 var(--page-padding);
             display: flex;
